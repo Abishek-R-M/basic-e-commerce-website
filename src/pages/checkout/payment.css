@@ -1,0 +1,142 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.border {
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.payment-container form {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 300px;
+    place-items: center;
+    background-color: #CDE3EB;
+    padding: 20px 30px 20px 0;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    margin: 50px 100px 50px 150px;
+}
+
+.payment-container input {
+    margin: 30px;
+}
+
+.payment-container label {
+    font-size: 20px;
+}
+
+.payment-cart {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    width: 700px;
+    margin: 10px 100px 20px 100px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #CDE3EB;
+}
+
+.payment-cart img {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0 0 15px;
+    border-radius: 10px;
+}
+
+.payment-button {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #143A52;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 30px 0 0 150px;
+    
+}
+
+.payment-button:hover {
+    background-color: #FFC436;
+    color: #143A52;
+    border: 2px solid #143A52;
+}
+
+.cartproducts {
+    margin-left: 30px;
+}
+
+.product-cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.summary {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: 50px 50px 0 50px;
+    border-radius: 5px;
+    background-color: #CDE3EB;
+    font-size: 16px
+}
+
+.summary p {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    border-bottom: 2px solid black;
+    padding: 0 0 10px 0;
+}
+
+.order-totalBorder  {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    color: red;
+    font-weight: 500;
+}
+
+.final-heading {
+    font-size: 40px;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    letter-spacing: 8px;
+    background: linear-gradient(90deg, hsla(33, 100%, 53%, 1) 0%, hsla(58, 100%, 68%, 1) 100%);
+}
+
+.quote {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    word-spacing: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.final-button {
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #143A52;
+    border: 2px solid white;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+    margin: 100px 0 0 50px;
+}
+
+.final-button:hover {
+    background-color: #FFC436;
+    color: #143A52;
+    border: 2px solid #143A52;
+}

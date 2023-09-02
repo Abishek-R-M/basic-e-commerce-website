@@ -33,7 +33,7 @@ const Cart = () => {
       <div className='subtotal'>
         <p> SUB-TOTAL : <b> ₹ {totalAmount} </b> </p>
         <button type='submit' onClick={() => navigate("/")}>Continue Shopping</button>
-        <button onClick={() => navigate("/chechout")}> Checkout</button>
+        <button onClick={() => navigate("/checkout")}> Checkout</button>
       </div> : <></>
        }
     </div>
