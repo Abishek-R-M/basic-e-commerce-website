@@ -12,8 +12,8 @@ const schema = yup.object().shape({
   address : yup.string().required("* Address is required"),
   district : yup.string().required("* District is required"),
   landmark : yup.string().required("* LandMark is required"),
-  pincode: yup.string().required().max(6, "maximum 6 characters only"),
-  phoneNumber: yup.string().required().max(10, "maximum 10 number only"),
+  pincode: yup.string().required().min(6, "minimun 6 numbers required").max(6, "maximum 6 characters only"),
+  phoneNumber: yup.string().required().min(10, "minimun 10 numbers required").max(10, "maximum 10 number only"),
 })
 
 

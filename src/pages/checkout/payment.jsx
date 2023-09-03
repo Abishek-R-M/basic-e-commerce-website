@@ -73,7 +73,7 @@ const Payment = () => {
             })
           }
       </div>
-      <div>
+      <div className='flex'>
         <div className='summary'>
           <h3>Order Summary</h3>
           <p>Items : <b> ₹ { totalAmount } </b> </p>

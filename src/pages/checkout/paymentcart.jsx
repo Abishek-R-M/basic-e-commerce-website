@@ -14,7 +14,7 @@ const Paymentcart = (props) => {
           <p> <b> ₹ {price} </b> <span> ₹ {lowPrice} </span> </p>
           <lable>Quantity : </lable>
           <button className='cartbtn' onClick={ ()=> removeFromCart(id) }>-</button>
-          <input className='cartbtn' value={cartItems[id] }/>
+          <input className='cartbtn' maxLength={"1"} value={cartItems[id] }/>
           <button className='cartbtn' onClick={ () => addToCart(id) }>+</button>
       </div>
     </div>

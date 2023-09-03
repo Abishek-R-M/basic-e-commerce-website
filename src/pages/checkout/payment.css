@@ -32,8 +32,8 @@
 .payment-cart {
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    width: 800px;
-    margin: 10px 0 20px 100px;
+    width: 600px;
+    margin: 10px 0 20px 30px;
     border-radius: 10px;
     padding: 15px;
     background-color: #CDE3EB;
@@ -55,8 +55,7 @@
     border: 2px solid #fff;
     cursor: pointer;
     font-family: 'Fira Sans', sans-serif;
-    margin: 30px 0 0 160px;
-    
+    margin: 30px 0 20px 0;
 }
 
 .payment-button:hover {
@@ -71,17 +70,17 @@
 
 .product-cart {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .summary {
     border: 1px solid black;
     padding: 20px;
-    width: 300px;
-    margin: 10px 0 0 100px;
+    width: 250px;
     border-radius: 5px;
     background-color: #CDE3EB;
-    font-size: 16px
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .summary p {
@@ -139,4 +138,10 @@ h3 {
     background-color: #FFC436;
     color: #143A52;
     border: 2px solid #143A52;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
